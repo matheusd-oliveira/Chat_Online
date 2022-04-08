@@ -12,11 +12,12 @@ void main() async {
       home: HomePage(),
     ),
   );
-  FirebaseFirestore.instance.collection('mensagens').doc('msg1').set(
-    {
-      'texto': 'olá, tudo bem Matheus?',
-      'from': 'davi',
-      'read': 'false',
-    },
+  FirebaseFirestore.instance
+      .collection('mensagens')
+      .doc('msg1')
+      .collection('arquivos')
+      .doc()  
+      .set(
+    {'arqname': 'foto.png'},
   );
 }
