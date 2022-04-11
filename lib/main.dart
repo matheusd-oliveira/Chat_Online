@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:chat_online/home_page.dart';
+import 'package:chat_online/chat_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -11,7 +11,7 @@ void main() async {
 
   runApp(
     MaterialApp(
-      home: HomePage(),
+      home: ChatScreen(),
     ),
   );
 // Criando dados no banco de dados
