@@ -22,6 +22,7 @@ class _TextComposerState extends State<TextComposer> {
 
   //Criando instancia para pegar imagem
   ImagePicker _picker = ImagePicker();
+  
   // Função para resetar os campos
 
   void _reset() {
