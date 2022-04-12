@@ -1,7 +1,7 @@
-import 'dart:async';
+
+// ignore_for_file: prefer_const_constructors
 
 import 'package:chat_online/chat_screen.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 

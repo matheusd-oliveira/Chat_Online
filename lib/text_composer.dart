@@ -1,7 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'dart:io';
-
+// ignore_for_file: prefer_const_constructors, prefer_const_constructors_in_immutables, use_key_in_widget_constructors, prefer_final_fields, unused_field, deprecated_member_use
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
